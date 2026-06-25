@@ -1,0 +1,6 @@
+PRV001|Distribuidora ABC|555-1234|contacto@abc.com|Av. Principal 123
+PRV002|Tecnología XYZ|555-9876|ventas@xyz.com|Calle Secundaria 456
+PRV003|Importaciones Globales|555-2222|ventas@globales.com|Av. Los Pinos 789
+PRV004|Suministros Industriales|555-3333|contacto@suministros.com|Parque Industrial Sur Lote 4
+PRV005|Logística Rápida|555-4444|operaciones@rapida.com|Av. Central 555
+PRV006|Materiales de Construcción|555-5555|info@materiales.com|Ruta 2 Km 10
