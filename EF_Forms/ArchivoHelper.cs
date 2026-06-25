@@ -1,13 +1,13 @@
-﻿using System;
+using System;
 using System.Globalization;
 using System.IO;
+using System.Security.Cryptography;
+using System.Text;
 
 namespace EF_Forms
 {
     public static class ArchivoHelper
     {
-<<<<<<< Updated upstream
-=======
         // Limitación conocida: El uso de una clave AES embebida (hardcoded) en el código 
         // representa un riesgo de seguridad. Si el código fuente o el ejecutable 
         // es analizado, la clave puede ser comprometida.
@@ -64,7 +64,6 @@ namespace EF_Forms
             }
         }
 
->>>>>>> Stashed changes
         private static string carpeta = Path.Combine(
             Environment.GetFolderPath(Environment.SpecialFolder.Desktop),
             "MiSistemaTienda"
