@@ -10,7 +10,11 @@ namespace EF_Forms
     {
         // Limitación conocida: El uso de una clave AES embebida (hardcoded) en el código 
         // representa un riesgo de seguridad. Si el código fuente o el ejecutable 
+<<<<<<< HEAD
         // es analizado, la clave puede ser comprometida. (Insumo para Sección 7, Pregunta 3)
+=======
+        // es analizado, la clave puede ser comprometida.
+>>>>>>> master
         private static readonly byte[] AesKey = Encoding.UTF8.GetBytes("12345678901234567890123456789012");
         private static readonly byte[] AesIV = Encoding.UTF8.GetBytes("1234567890123456");
 
