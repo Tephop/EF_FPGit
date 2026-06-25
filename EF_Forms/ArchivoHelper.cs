@@ -191,9 +191,9 @@ namespace EF_Forms
                     sw.WriteLine(
                         p.ID_Proveedor + "|" +
                         p.NombreProveedor + "|" +
-                        p.Telefono + "|" +
-                        p.Email + "|" +
-                        p.Direccion
+                        Encrypt(p.Telefono) + "|" +
+                        Encrypt(p.Email) + "|" +
+                        Encrypt(p.Direccion)
                     );
                 }
             }
@@ -223,9 +223,9 @@ namespace EF_Forms
                 {
                     ID_Proveedor = datos[0],
                     NombreProveedor = datos[1],
-                    Telefono = datos[2],
-                    Email = datos[3],
-                    Direccion = datos[4]
+                    Telefono = Decrypt(datos[2]),
+                    Email = Decrypt(datos[3]),
+                    Direccion = Decrypt(datos[4])
                 };
 
                DataStore.Proveedores.Add(p);
